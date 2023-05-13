@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Poppins:wght@300;700&family=Roboto:wght@400;700&family=Ubuntu:wght@500&display=swap');
+
+/*
+Avalable font families - - - 
+
+font-family: 'Poppins', sans-serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+
+
+*/
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+:root{
+	--heading-color:black;
+	--main-shadow:0px 0px 10px black;
+	--main-heading:3rem;
+	--btn-font:'PT Sans', sans-serif;
+}
+
+.main-btn{
+	display: inline-block;
+	padding: 10px 20px;
+	background: black;
+	color: white;
+	font-family: var(--btn-font);
+
+
+}
+.flex{
+	display: flex;
+	align-items: center;
+}
+
+.container{
+	max-width: 980px;
+	margin: 0 auto;
+}
+
+.italic{
+	font-style: italic;
+}
+
+
+p{
+	font-size: 1rem;
+	line-height: 28px;
+
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+nav{
+	font-family: 'Poppins', sans-serif;
+	justify-content: space-between;
+	background: black;
+	position: sticky;
+	top: 0;
+	box-shadow: var(--main-shadow);
+/*	padding: 0px 10px 0px 0px;*/
+	height: 50px;
+
+
+
+}
+
+.left-nav{
+/*	background: red;*/
+	width: 80%;
+	padding: 11px;
+	list-style-type: none;
+	justify-content: flex-start;
+	gap: 30px;
+
+}
+
+
+.left-nav ul li{
+	padding: 10px;
+
+}
+
+.left-nav li a{
+	color: white;
+	padding: 13px;
+	font-weight: light;
+}
+
+.left-nav li a:hover{
+	background: red;
+	color: black;
+}
+
+.right-nav a{
+	color: white;
+	padding: 10px 15px;
+	font-size: 1.2rem;
+
+}
+
+.right-nav a:hover{
+	background: red;
+	color: black;
+}
+
+
