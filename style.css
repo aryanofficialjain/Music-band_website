@@ -114,4 +114,15 @@ nav{
 	color: black;
 }
 
+/*banner image section*/
+
+.banner{
+	background: url('img/asset 0.jpeg') no-repeat;
+	background-size: cover;
+	min-height: 100vh;
+
+}
+
+
+
 
