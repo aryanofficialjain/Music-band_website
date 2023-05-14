@@ -119,9 +119,61 @@ nav{
 .banner{
 	background: url('img/asset 0.jpeg') no-repeat;
 	background-size: cover;
+/*	overflow: hidden;*/
+/*	position: absolute;*/
 	min-height: 100vh;
 
 }
+
+
+/*band section*/
+
+.band{
+	padding: 90px 20px 70px 20px;
+	text-align: center;
+}
+
+.band-text{
+/*	background: red;*/
+	padding: 30px;
+}
+
+.band-text h1{
+	font-family: 'Roboto',sans-serif;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	font-size: 2.2rem;
+	margin-bottom: 20px;
+}
+
+.band-text span{
+	font-size: 1.2rem;
+	color: grey;
+}
+
+.band-text p{
+	margin-top: 10px;
+	line-height: 20px;
+	text-align: justify;
+}
+
+
+.band-img{
+	justify-content: space-evenly;
+
+
+}
+
+.band-img-item{
+	width: 20%;
+}
+
+.band-img-item img{
+	width: 100%;
+	border-radius: 6px;
+/*	box-shadow: var(--main-shadow);*/
+}
+
 
 
 
