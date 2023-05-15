@@ -15,8 +15,10 @@ font-family: 'Ubuntu', sans-serif;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
 
 }
+
 
 :root{
 	--heading-color:black;
@@ -32,7 +34,13 @@ font-family: 'Ubuntu', sans-serif;
 	background: black;
 	color: white;
 	font-family: var(--btn-font);
+	transition: 0.4s ease-out;
 
+
+}
+
+.main-btn:hover{
+	background: grey;
 
 }
 .flex{
@@ -96,11 +104,12 @@ nav{
 	color: white;
 	padding: 13px;
 	font-weight: light;
+	transition: 0.4s ease-out;
 }
 
 .left-nav li a:hover{
-	background: red;
-	color: black;
+	background: grey;
+	color: white;
 }
 
 .right-nav a{
@@ -234,17 +243,27 @@ nav{
 	list-style-type: none;
 }
 
+
+
 .tour-list ul li{
 	width: 100%;
 	border: 1px solid grey;
 	padding: 10px;
 }
 
+.sold-out{
+	padding: 3px 5px;
+	font-weight: light;
+	background: red;
+	color: white;
+}
+
 
 
 .tour-card{
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: center;
+	gap: 30px;
 	align-items: center;
 
 
@@ -271,6 +290,10 @@ nav{
 
 }
 
+.tour-card-item span{
+	color: grey;
+}
+
 
 .tour-card-item a{
 	margin: 10px;
@@ -278,9 +301,86 @@ nav{
 
 
 
+/*contact section*/
+
+.contact{
+	padding-block: 80px;
+}
 
 
+.contact-text{
+	text-align: center;
+	font-family: var(--main-font);
+	margin-bottom: 60px;
+
+}
+
+.contact-text h1{
+	letter-spacing: 3px;
+	font-size: 2.4rem;
+	font-weight: lighter;
+	margin-bottom: 15px;
+}
+
+.contact-container{
+	justify-content: space-between;
+}
+
+.contact-address{
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 5px;
+	font-size: 1.3rem;
+	font-family: var(--main-font);
+	font-weight: lighter;
+}
 
 
+.contact-form{
+/*	background: red;*/
+	padding: 20px;
+	gap: 20px;
+}
+
+.contact-form input{
+	margin: 10px 8px 8px 0px;
+	width: 40%;
+	border: 0.5px solid grey;
+	padding: 8px 34px 8px 10px;
+	font-size: 1rem;
+}
+
+.contact-form #message{
+	width: 100%;
+}
+
+.contact-form a{
+	display: block;
+	width: 14%;
+	margin-left: auto;
+}
+
+
+.last-bg-image{
+	background-size: cover;
+	background-position: center;
+}
+
+.last-bg-image img{
+	width: 100%;
+}
+
+
+/*footer section*/
+footer{
+	text-align: center;
+	background: black;
+	padding: 12px 24px;
+	color: white;
+	font-family: var(--main-font);
+	font-weight: lighter;
+	font-size: 1rem;
+	margin-top: -10px;
+}
 
 

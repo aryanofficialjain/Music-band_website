@@ -13,9 +13,9 @@
 	<nav class="flex">
 				<ul class="left-nav flex">
 					<li><a href="#">HOME</a></li>
-					<li><a href="#">BAND</a></li>
-					<li><a href="#">TOUR</a></li>
-					<li><a href="#">CONTACT</a></li>
+					<li><a href="#band">BAND</a></li>
+					<li><a href="#tour">TOUR</a></li>
+					<li><a href="#contact">CONTACT</a></li>
 					<li><a href="#">MORE <i class="fa-solid fa-caret-down"></i></a></li>
 				</ul>
 
@@ -30,7 +30,7 @@
 
 
 	<!-- the Band section -->
-<section class="band container">
+<section class="band container" id="band">
 	<div class="band-text">
 			<h1>THE BAND</h1>
 			<span class="italic">We Love Music</span>
@@ -62,7 +62,7 @@
 
 <!-- tour dates section -->
 
-	<section class="tour">
+	<section class="tour" id="tour">
 	<div class="container">	
 		<div class="tour-text">
 			<h1>TOUR DATES</h1><br>
@@ -71,8 +71,8 @@
 
 		<div class="tour-list">
 			<ul class="flex">
-				<li>September</li>
-				<li>October</li>
+				<li>September &nbsp&nbsp<label class="sold-out">Sold out</label></li>
+				<li>October &nbsp&nbsp<label class="sold-out">Sold out</label></li>
 				<li>November</li>
 			</ul>
 		</div>
@@ -109,6 +109,39 @@
 	</section>
 
 
+	<!-- contact section -->
+	<section class="contact container" id="contact">
+		<div class="contact-text">
+			<h1>CONTACT</h1>
+			<span class="italic">Fan? Drop a note!</span>
+		</div>
+
+		<div class="contact-container flex">
+			<div class="contact-address flex">
+				<label><i class="fa-solid fa-location-dot"></i> Chicago, US</label>
+				<label><i class="fa-solid fa-phone"></i> Phone: +00 151515</label>
+				<label><i class="fa-solid fa-envelope"></i> Email: mail@mail.com</label>
+			</div>
+			<div class="contact-form">
+				<form>
+					<input type="text" name="Name" placeholder="Name">
+					<input type="email" name="Email" placeholder="Email"><br>	
+					<input type="text" name="Message" id="message" placeholder="Message"><br>
+					<a href="#" class="main-btn">SEND</a>
+				</form>
+			</div>
+		</div>
+	</section>
+
+
+<!-- section last background images section -->
+
+<section class="last-bg-image">
+	<img src="img/asset 7.jpeg">
+</section>
+
+
+<footer> Made By Aryan Jain - All right reserved by W3schools </footer>
 
 
 
