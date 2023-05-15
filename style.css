@@ -86,7 +86,7 @@ nav{
 
 .left-nav{
 /*	background: red;*/
-	width: 80%;
+	width: 70%;
 	padding: 11px;
 	list-style-type: none;
 	justify-content: flex-start;
@@ -124,11 +124,16 @@ nav{
 	color: black;
 }
 
+#navmenu{
+	display: none;
+}
+
 /*banner image section*/
 
 .banner{
 	background: url('img/asset 0.jpeg') no-repeat;
 	background-size: cover;
+	background-position: center;
 /*	overflow: hidden;*/
 /*	position: absolute;*/
 	min-height: 100vh;
@@ -171,6 +176,7 @@ nav{
 
 .band-img{
 	font-family: var(--main-font);
+	flex-wrap: wrap;
 
 	justify-content: space-evenly;
 
@@ -178,7 +184,9 @@ nav{
 }
 
 .band-img-item{
-	width: 20%;
+	width: 30%;
+	
+
 
 }
 
@@ -188,7 +196,7 @@ nav{
 }
 
 .band-img-item img{
-	width: 100%;
+	max-width: 80%;
 	border-radius: 6px;
 /*	box-shadow: var(--main-shadow);*/
 }
@@ -206,6 +214,7 @@ nav{
 
 .tour-text{
 	text-align: center;
+/*	max-width: 80%;*/
 
 }
 
@@ -227,7 +236,7 @@ nav{
 .tour-list{
 	background:white;
 	color: black;
-	width: 70%;
+	width:70%;
 /*	border: 0.5px solid grey;*/
 	margin: 0 auto;
 	margin-bottom:30px;
@@ -241,6 +250,7 @@ nav{
 	align-items: flex-start;
 	justify-content: space-between;
 	list-style-type: none;
+	min-width: 100%;
 }
 
 
@@ -265,6 +275,7 @@ nav{
 	justify-content: center;
 	gap: 30px;
 	align-items: center;
+	flex-wrap: wrap;
 
 
 }
@@ -272,7 +283,7 @@ nav{
 
 .tour-card-item{
 	background: white;
-	width: 25%;
+	width: 30%;
 	color: black;
 	font-family: var(--main-font);
 
@@ -355,9 +366,11 @@ nav{
 }
 
 .contact-form a{
+	text-align: center;
 	display: block;
-	width: 14%;
+	width: 20%;
 	margin-left: auto;
+/*	margin-right: 20px;*/
 }
 
 

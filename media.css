@@ -1,0 +1,40 @@
+@media screen and (max-width:800px){
+	.band-img-item{
+		min-width: 100%;
+
+	}
+
+	.band-img{
+		gap: 30px;
+		width: 100%;
+	}
+
+	.tour-list{
+		min-width: 90%;
+	}
+
+	.tour-card-item{
+		width: 80%;
+	}
+
+	.contact-container{
+		flex-direction: column;
+		width: 100%;
+		gap: 30px;
+		text-align: center;
+	}
+	.contact-address{
+	}
+}
+
+
+@media screen and (max-width:500px){
+	.right-nav{
+		display: none;
+	}
+	#navmenu{
+		display: block;
+	}
+
+	
+}
