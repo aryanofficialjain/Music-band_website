@@ -34,7 +34,23 @@
 	}
 	#navmenu{
 		display: block;
+		margin-left: auto;
 	}
 
-	
+	.left-nav{
+		background: black;
+/*		margin:10px;*/
+		width: 100%;
+		flex-direction: column;
+		position: absolute;
+		top: 0px;
+		z-index: -1;
+		left: -100%;
+		align-items: flex-start;
+		transition: all .3s ease-out;
+	}
+
+	.active{
+		left: 0;
+	}
 }

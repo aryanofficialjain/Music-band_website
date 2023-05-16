@@ -11,7 +11,7 @@
 
 	<!-- navigation bar -->
 	<nav class="flex">
-				<ul class="left-nav flex">
+				<ul class="left-nav flex " id="nav-links">
 					<li><a href="#">HOME</a></li>
 					<li><a href="#band">BAND</a></li>
 					<li><a href="#tour">TOUR</a></li>
@@ -22,7 +22,7 @@
 				<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
 			</div>
 
-			<label id="navmenu"><i class="fa-sharp fa-solid fa-bars" style="color: white; font-size: 20px; margin-right: 20px;"></i></label>
+			<div id="navmenu"><i class="fa-sharp fa-solid fa-bars" style="color: white; font-size: 20px; margin-right: 20px;"></i></div>
 	</nav>
 
 	<!-- banner section with image changing animation -->
@@ -150,6 +150,14 @@
 
 
 	
+</script>
+<script type="text/javascript">
+	const toggleButton = document.getElementById('navmenu');
+	const navLinks = document.getElementById('nav-links');
+
+	toggleButton.addEventListener('click', () => {
+		navLinks.classList.toggle('active');
+	})
 </script>
 </body>
 </html>

@@ -137,7 +137,25 @@ nav{
 /*	overflow: hidden;*/
 /*	position: absolute;*/
 	min-height: 100vh;
+	animation: changebg 20s infinite;
 
+}
+
+@keyframes changebg {
+	0%{
+		background-image: url('img/asset 0.jpeg');
+
+	}
+
+	50%{
+		background-image: url('img/asset 1.jpeg');
+
+	}
+
+	100%{
+		background-image: url('img/asset 2.jpeg');
+
+	}
 }
 
 
